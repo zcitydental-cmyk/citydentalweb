@@ -503,6 +503,52 @@ footer {
     color: var(--secondary);
 }
 
+/* Google Map */
+.map-container {
+    margin-top: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--secondary);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: var(--transition);
+    margin-bottom: 15px;
+}
+
+.map-link:hover {
+    background: var(--primary);
+    transform: translateY(-2px);
+}
+
+.map-link i {
+    font-size: 16px;
+}
+
+.map-embed {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 30px;
@@ -572,6 +618,10 @@ footer {
 [dir="rtl"] .footer-contact i {
     margin-right: 0;
     margin-left: 10px;
+}
+
+[dir="rtl"] .map-link {
+    flex-direction: row-reverse;
 }
 
 [dir="rtl"] .whatsapp-float {
@@ -790,6 +840,10 @@ footer {
         margin-left: 10px;
     }
     
+    .map-embed {
+        height: 180px;
+    }
+    
     .stats {
         padding: 30px 0;
     }
@@ -813,5 +867,9 @@ footer {
     [dir="rtl"] .whatsapp-float {
         right: auto;
         left: 15px;
+    }
+    
+    .map-embed {
+        height: 160px;
     }
 }
