@@ -566,7 +566,8 @@ footer {
 .socials a {
     color: var(--primary);
     background: var(--white);
-    font-size: 24px;
+    font-size: 28px;
+    /* Increased icon size */
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -602,10 +603,17 @@ footer {
     border-color: #000000;
 }
 
+.socials a i.fa-threads,
+.socials a:has(.fa-threads) {
+    color: #000000;
+    /* Solid black for high contrast */
+}
+
 .socials a i.fa-threads:hover,
 .socials a:has(.fa-threads):hover {
-    color: #000000;
-    border-color: #333333;
+    color: var(--secondary);
+    /* Brand color on hover */
+    border-color: var(--secondary);
 }
 
 .socials a i.fa-youtube:hover,
@@ -615,21 +623,32 @@ footer {
 }
 
 .threads-link {
-    color: var(--primary) !important;
+    color: #000000 !important;
 }
 
 .footer-contact p {
-    margin-bottom: 10px;
-    opacity: 0.7;
+    margin-bottom: 12px;
+    opacity: 0.85;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    line-height: 1.4;
+}
+
+.footer-contact i {
+    width: 20px;
+    /* Fixed width for icon column */
+    text-align: center;
+    color: var(--secondary);
+    margin-top: 3px;
+    font-size: 16px;
 }
 
 .footer-contact a {
     color: var(--white);
     text-decoration: none;
     transition: var(--transition);
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    display: inline-block;
 }
 
 .footer-contact a:hover {
