@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Dental - Premium Dental Supplies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.jpeg" alt="City Dental Logo">
+                <span data-en="City" data-ar="سيتي">City</span><span data-en="Dental" data-ar="دينتال">Dental</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#products" data-en="Products" data-ar="المنتجات">Products</a></li>
+                <li><a href="#categories" data-en="Categories" data-ar="الفئات">Categories</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button id="lang-switch" class="lang-switch">العربية</button>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="btn-login" data-en="Login" data-ar="دخول">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-en="Your Trusted Partner in <span>Dental Excellence</span>" data-ar="شريكك الموثوق في <span>التميز السني</span>">Your Trusted Partner in <span>Dental Excellence</span></h1>
+                <p data-en="Supplying top-tier dental instruments, materials, and equipment to Doctors, Clinics, and Dental Students in Egypt." data-ar="توريد أفضل الأدوات والمواد والمعدات الطبية للأطباء والعيادات وطلاب طب الأسنان في مصر.">Supplying top-tier dental instruments, materials, and equipment to Doctors, Clinics, and Dental Students in Egypt.</p>
+                <div class="hero-btns">
+                    <a href="#products" class="btn primary" data-en="Shop Now" data-ar="تسوق الآن">Shop Now</a>
+                    <a href="#contact" class="btn secondary" data-en="Inquiry" data-ar="استفسار">Inquiry</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" alt="Modern Dental Equipment" class="hero-img-responsive">
+            </div>
+        </div>
+    </section>
+
+    <section class="stats container">
+        <div class="stat-item">
+            <h3 data-en="10k+" data-ar="+١٠ آلاف">10k+</h3>
+            <p data-en="Products" data-ar="منتج">Products</p>
+        </div>
+        <div class="stat-item">
+            <h3 data-en="500+" data-ar="+٥٠٠">500+</h3>
+            <p data-en="Clinics Served" data-ar="عيادة نخدمها">Clinics Served</p>
+        </div>
+        <div class="stat-item">
+            <h3 data-en="24/7" data-ar="٢٤/٧">24/7</h3>
+            <p data-en="Support" data-ar="دعم فني">Support</p>
+        </div>
+    </section>
+
+    <section id="categories" class="categories container">
+        <h2 class="section-title" data-en="Specialized For You" data-ar="متخصصون من أجلك">Specialized For You</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fas fa-user-md"></i>
+                <h3 data-en="For Doctors" data-ar="للأطباء">For Doctors</h3>
+                <p data-en="Precision instruments and advanced materials for daily practice." data-ar="أدوات دقيقة ومواد متطورة لممارستك اليومية.">Precision instruments and advanced materials for daily practice.</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-university"></i>
+                <h3 data-en="For Students" data-ar="للطلاب">For Students</h3>
+                <p data-en="Essential kits and study materials at student-friendly prices." data-ar="أطقم أساسية ومواد دراسية بأسعار مناسبة للطلاب.">Essential kits and study materials at student-friendly prices.</p>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-clinic-medical"></i>
+                <h3 data-en="For Clinics" data-ar="للعيادات">For Clinics</h3>
+                <p data-en="Bulk supplies and heavy equipment for modern dental centers." data-ar="تجهيزات كاملة ومعدات ثقيلة لمراكز طب الأسنان الحديثة.">Bulk supplies and heavy equipment for modern dental centers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products container">
+        <h2 class="section-title" data-en="Featured Products" data-ar="منتجات مميزة">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="prod-img">
+                    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=400" alt="Dental Kit">
+                </div>
+                <div class="prod-info">
+                    <span class="tag" data-en="Instruments" data-ar="أدوات">Instruments</span>
+                    <h3 data-en="Stainless Steel Kit" data-ar="طقم ستانلس ستيل">Stainless Steel Kit</h3>
+                    <p class="price" data-en="6,000 EGP" data-ar="٦,٠٠٠ ج.م">6,000 EGP</p>
+                    <button class="add-to-cart" data-en="Add to Cart" data-ar="أضف للسلة">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img">
+                    <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=400" alt="Dental Materials">
+                </div>
+                <div class="prod-info">
+                    <span class="tag" data-en="Materials" data-ar="مواد">Materials</span>
+                    <h3 data-en="Composite Resin Set" data-ar="مجموعة ريزين كومبوزيت">Composite Resin Set</h3>
+                    <p class="price" data-en="2,500 EGP" data-ar="٢,٥٠٠ ج.م">2,500 EGP</p>
+                    <button class="add-to-cart" data-en="Add to Cart" data-ar="أضف للسلة">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img">
+                    <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400" alt="Dental Light">
+                </div>
+                <div class="prod-info">
+                    <span class="tag" data-en="Equipment" data-ar="معدات">Equipment</span>
+                    <h3 data-en="LED Curing Light" data-ar="جهاز الحشو الضوئي LED">LED Curing Light</h3>
+                    <p class="price" data-en="4,500 EGP" data-ar="٤,٥٠٠ ج.م">4,500 EGP</p>
+                    <button class="add-to-cart" data-en="Add to Cart" data-ar="أضف للسلة">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="prod-img">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400" alt="Hygiene Supplies">
+                </div>
+                <div class="prod-info">
+                    <span class="tag" data-en="Disposable" data-ar="مستهلكات">Disposable</span>
+                    <h3 data-en="Premium Face Masks" data-ar="كمامات طبية فاخرة">Premium Face Masks</h3>
+                    <p class="price" data-en="750 EGP" data-ar="٧٥٠ ج.م">750 EGP</p>
+                    <button class="add-to-cart" data-en="Add to Cart" data-ar="أضف للسلة">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2 data-en="Ready to Upgrade Your Practice?" data-ar="هل أنت جاهز لتطوير عيادتك؟">Ready to Upgrade Your Practice?</h2>
+                <p data-en="Join thousands of professionals who trust City Dental for their supplies in Egypt." data-ar="انضم لآلاف المحترفين الذين يثقون في سيتي دينتال لتوريد احتياجاتهم في مصر.">Join thousands of professionals who trust City Dental for their supplies in Egypt.</p>
+                <form>
+                    <input type="email" placeholder="Email / البريد الإلكتروني">
+                    <button type="submit" data-en="Subscribe" data-ar="اشترك">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-about">
+                <div class="logo">
+                    <img src="logo.jpeg" alt="City Dental Logo">
+                    <span data-en="City" data-ar="سيتي">City</span><span data-en="Dental" data-ar="دينتال">Dental</span>
+                </div>
+                <p data-en="The leading center for premium dental items in Egypt, serving the dental community with excellence." data-ar="المركز الرائد للمستلزمات السنية في مصر، نخدم مجتمع طب الأسنان بتميز.">The leading center for premium dental items in Egypt, serving the dental community with excellence.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                <ul>
+                    <li><a href="#" data-en="About Us" data-ar="من نحن">About Us</a></li>
+                    <li><a href="#" data-en="Shipping Policy" data-ar="سياسة الشحن">Shipping Policy</a></li>
+                    <li><a href="#" data-en="Student Discounts" data-ar="خصومات الطلاب">Student Discounts</a></li>
+                    <li><a href="#" data-en="Contact Support" data-ar="الدعم الفني">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 data-en="Connect With Us" data-ar="تواصل معنا">Connect With Us</h4>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p><i class="fas fa-phone"></i> +20 123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> info@citydental.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-en="&copy; 2026 City Dental Center. All rights reserved." data-ar="&copy; ٢٠٢٦ سيتي دينتال سنتر. جميع الحقوق محفوظة.">&copy; 2026 City Dental Center. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const langSwitch = document.getElementById('lang-switch');
+        const html = document.documentElement;
+        let currentLang = 'en';
+
+        langSwitch.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'ar' : 'en';
+            html.lang = currentLang;
+            html.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+            langSwitch.textContent = currentLang === 'en' ? 'العربية' : 'English';
+            
+            // Switch all translatable text
+            document.querySelectorAll('[data-en]').forEach(el => {
+                const enText = el.getAttribute('data-en');
+                const arText = el.getAttribute('data-ar');
+                
+                if (el.tagName === 'INPUT' && el.placeholder) {
+                    // Handled by placeholder usually, but for consistency:
+                } else {
+                    el.innerHTML = currentLang === 'en' ? enText : arText;
+                }
+            });
+
+            // Update body font for Arabic
+            document.body.style.fontFamily = currentLang === 'ar' ? "'Amiri', serif" : "'Poppins', sans-serif";
+        });
+    </script>
+</body>
+</html>
