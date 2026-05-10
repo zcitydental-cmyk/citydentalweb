@@ -569,7 +569,7 @@ footer {
 
 .map-embed {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -880,7 +880,7 @@ footer {
     }
     
     .map-embed {
-        height: 180px;
+        height: 250px;
     }
     
     .stats {
@@ -909,6 +909,6 @@ footer {
     }
     
     .map-embed {
-        height: 160px;
+        height: 200px;
     }
 }
