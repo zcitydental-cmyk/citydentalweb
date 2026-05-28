@@ -1,0 +1,612 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="nl-NL" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="nl-NL" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="nl-NL" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="nl-NL" class="no-js"><!--<![endif]-->
+
+	<head>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-5SJBV7K');</script>
+		<!-- End Google Tag Manager -->
+
+		<meta charset="utf-8">
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+
+		<title>Pagina niet gevonden - Cavex</title>
+
+		<!-- mobile meta -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="pinterest" content="nopin">
+
+		<!-- FAVICON-->
+		<link rel="icon" type="image/png" href="https://www.cavex.nl/wp-content/themes/cavex/library/images/favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="https://www.cavex.nl/wp-content/themes/cavex/library/images/favicon/favicon-16x16.png" sizes="16x16" />
+		<!--[if IE]>
+			<link rel="shortcut icon" href="https://www.cavex.nl/wp-content/themes/cavex/favicon.ico">
+		<![endif]-->
+		
+		<!-- STYLING -->
+		<!--<link rel="stylesheet" href="https://use.typekit.net/uom6wlz.css">-->
+
+
+		<link href="https://www.cavex.nl/wp-content/themes/cavex/library/css/style.css" rel="stylesheet">
+		<link rel="pingback" href="https://www.cavex.nl/xmlrpc.php">
+		
+		<meta name='robots' content='noindex, follow' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.6 (Yoast SEO v27.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:title" content="Pagina niet gevonden - Cavex" />
+	<meta property="og:site_name" content="Cavex" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.cavex.nl\/#website","url":"https:\/\/www.cavex.nl\/","name":"Cavex","description":"Your impression is our specialty","publisher":{"@id":"https:\/\/www.cavex.nl\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.cavex.nl\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"nl-NL"},{"@type":"Organization","@id":"https:\/\/www.cavex.nl\/#organization","name":"Cavex Holland BV","url":"https:\/\/www.cavex.nl\/","logo":{"@type":"ImageObject","inLanguage":"nl-NL","@id":"https:\/\/www.cavex.nl\/#\/schema\/logo\/image\/","url":"https:\/\/www.cavex.nl\/wp-content\/uploads\/2021\/11\/Cavex-Brandbar-low-res.png","contentUrl":"https:\/\/www.cavex.nl\/wp-content\/uploads\/2021\/11\/Cavex-Brandbar-low-res.png","width":1575,"height":515,"caption":"Cavex Holland BV"},"image":{"@id":"https:\/\/www.cavex.nl\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/cavexhollandbv\/","https:\/\/x.com\/cavexholland","https:\/\/www.instagram.com\/cavexholland\/","https:\/\/www.linkedin.com\/company\/1531090\/","https:\/\/www.youtube.com\/c\/CavexHolland"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//player.vimeo.com' />
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='vimeo-for-wordpress-public-css' href='https://www.cavex.nl/wp-content/plugins/vimeo/build/style-index.css?ver=1.2.2' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.cavex.nl/wp-includes/css/dist/block-library/style.min.css?ver=98261694fb74b7043f58ec4e1dc9654d' type='text/css' media='all' />
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css' href='https://www.cavex.nl/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css' href='https://www.cavex.nl/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.11' type='text/css' media='all' />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://player.vimeo.com/api/player.js?ver=1.2.2" id="vimeo-for-wordpress-player-js"></script>
+<script type="text/javascript" id="3d-flip-book-client-locale-loader-js-extra">
+/* <![CDATA[ */
+var FB3D_CLIENT_LOCALE = {"ajaxurl":"https://www.cavex.nl/wp-admin/admin-ajax.php","dictionary":{"Table of contents":"Table of contents","Close":"Close","Bookmarks":"Bookmarks","Thumbnails":"Thumbnails","Search":"Search","Share":"Share","Facebook":"Facebook","Twitter":"Twitter","Email":"Email","Play":"Play","Previous page":"Previous page","Next page":"Next page","Zoom in":"Zoom in","Zoom out":"Zoom out","Fit view":"Fit view","Auto play":"Auto play","Full screen":"Full screen","More":"More","Smart pan":"Smart pan","Single page":"Single page","Sounds":"Sounds","Stats":"Stats","Print":"Print","Download":"Download","Goto first page":"Goto first page","Goto last page":"Goto last page"},"images":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/images/","jsData":{"urls":[],"posts":{"ids_mis":[],"ids":[]},"pages":[],"firstPages":[],"bookCtrlProps":[],"bookTemplates":[]},"key":"3d-flip-book","pdfJS":{"pdfJsLib":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.min.js?ver=4.3.136","pdfJsWorker":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/pdf.worker.js?ver=4.3.136","stablePdfJsLib":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.min.js?ver=2.5.207","stablePdfJsWorker":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/stable/pdf.worker.js?ver=2.5.207","pdfJsCMapUrl":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/cmaps/"},"cacheurl":"https://www.cavex.nl/wp-content/uploads/3d-flip-book/cache/","pluginsurl":"https://www.cavex.nl/wp-content/plugins/","pluginurl":"https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/","thumbnailSize":{"width":"150","height":"150"},"version":"1.16.19"};
+//# sourceURL=3d-flip-book-client-locale-loader-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-content/plugins/interactive-3d-flipbook-powered-physics-engine/assets/js/client-locale-loader.js?ver=1.16.19" id="3d-flip-book-client-locale-loader-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" id="search-filter-plugin-build-js-extra">
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https://www.cavex.nl/wp-admin/admin-ajax.php","home_url":"https://www.cavex.nl/","extensions":[]};
+//# sourceURL=search-filter-plugin-build-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.5.11" id="search-filter-plugin-build-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.5.11" id="search-filter-plugin-chosen-js"></script>
+<link rel="https://api.w.org/" href="https://www.cavex.nl/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cavex.nl/xmlrpc.php?rsd" />
+
+<meta name="generator" content="WPML ver:4.9.4 stt:37,1;" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-GD9PPVTR0Y"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-GD9PPVTR0Y');
+		</script>
+
+				<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.45-->
+			<script class="hsq-set-content-id" data-content-id="standard-page">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "standard-page"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			<style type="text/css" id="simple-css-output">/* Button nieuwsbrief Gravity Forms verwijderen */#field_submit{ Display: none!Important; } </style>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"404-error"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVV5MHM');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="icon" href="https://www.cavex.nl/wp-content/uploads/2021/01/cropped-fav-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.cavex.nl/wp-content/uploads/2021/01/cropped-fav-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.cavex.nl/wp-content/uploads/2021/01/cropped-fav-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.cavex.nl/wp-content/uploads/2021/01/cropped-fav-270x270.png" />
+
+	</head>
+
+	<body class="error404 wp-theme-cavex">
+
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SJBV7K;" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+		
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVV5MHM" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		<div id="container">
+
+			
+			<header id="header" class="white-bg ">
+				<div class="wrap">
+					<div class="inner-wrap">
+						<a href="https://www.cavex.nl" class="logo">
+	<svg xmlns="http://www.w3.org/2000/svg" width="120" height="25" viewBox="0 0 120 25">
+  <path fill-rule="evenodd" d="M91.0333813,18.5461207 C92.5847482,18.5461207 93.8434532,19.8021552 93.8434532,21.3521552 C93.8434532,22.9012931 92.5847482,24.1573276 91.0333813,24.1573276 L76.5539568,24.1573276 C75.0017266,24.1573276 73.7438849,22.9012931 73.7438849,21.3521552 C73.7438849,19.8021552 75.0017266,18.5461207 76.5539568,18.5461207 L91.0333813,18.5461207 Z M47.1618129,0.0803448276 C48.2573525,0.0803448276 49.2138993,0.676034483 49.7206619,1.56224138 L57.9859856,15.2915517 C58.2121727,15.7122414 58.6585036,15.9975862 59.1713094,15.9975862 C59.7290072,15.9975862 60.2072806,15.6605172 60.4110216,15.1768966 L68.6685755,1.99672414 C69.2633957,0.951896552 70.3891511,0.176896552 71.6797986,0.176896552 L91.0308777,0.176896552 C92.5882878,0.176896552 93.8513094,1.36741379 93.8513094,2.92172414 C93.8513094,4.47689655 92.5882878,5.77603448 91.0308777,5.77603448 L74.3974964,5.77603448 C73.4564892,5.77603448 72.6415252,6.36482759 72.2599424,7.1587931 L62.8757698,22.2044828 C62.0797986,23.3708621 60.7373525,24.1389655 59.2153381,24.1389655 C57.6898705,24.1389655 56.3439712,23.3656897 55.5497266,22.1915517 L44.4173525,4.10275862 C44.2852662,3.76827586 44.2136115,3.40362069 44.2136115,3.02431034 C44.2136115,1.39844828 45.5336115,0.0803448276 47.1618129,0.0803448276 Z M14.8938129,0.332758621 C16.1930935,0.685344828 16.9882014,1.69568966 16.9882014,3.05344828 C16.9882014,4.60948276 15.6509353,5.7387931 14.0935252,5.7387931 C13.5645158,5.72254642 13.3346252,5.71779739 13.0683821,5.7168745 L12.8234466,5.71684154 C12.7785321,5.71693257 12.7309197,5.71705696 12.6796312,5.71719233 L12.3199632,5.71795748 C12.2500583,5.71804734 12.1745213,5.71810345 12.0923741,5.71810345 C8.5752518,5.71810345 5.72546763,8.56465517 5.72546763,12.0758621 C5.72546763,15.5853448 8.5752518,18.3439655 12.0923741,18.3439655 L18.6405755,18.3439655 C19.2397122,18.3439655 19.7792806,18.062931 20.1539568,17.6301724 L30.0742446,2.15603448 C30.8969784,1.02068966 32.2359712,0.281034483 33.7467626,0.281034483 C35.0745324,0.281034483 36.4601439,1.09827586 37.0964029,1.75948276 C37.5110536,2.19160847 39.8783566,5.97939668 42.3325734,9.97478726 L42.7420944,10.6420681 C45.2002099,14.6508094 47.641587,18.6922609 48.2004875,19.6183623 L48.2999147,19.7831628 L48.2999147,19.7831628 L48.3194245,19.8155172 L48.3194245,19.8155172 C48.5093525,20.2025862 48.6164029,20.637069 48.6164029,21.0956897 C48.6164029,22.6974138 47.3153957,23.9965517 45.7113669,23.9965517 C44.7781295,23.9965517 43.9476259,23.5568966 43.4166906,22.8741379 L34.6169784,8.51637931 C34.4339568,8.22844828 34.1128058,8.03706897 33.7467626,8.03706897 C33.3936691,8.03706897 33.0820144,8.21465517 32.8964029,8.48534483 L24.0405755,22.8362069 C23.5148201,23.5974138 22.6446043,24.1034483 21.6621583,24.1034483 L12.0923741,24.1034483 C5.41294964,24.1034483 6.87795145e-14,18.7431034 6.87795145e-14,12.0758621 C6.87795145e-14,5.40689655 5.41294964,2.33989073e-14 12.0923741,2.33989073e-14 C12.7528058,2.33989073e-14 13.8656115,0.0163793103 14.8938129,0.332758621 Z M116.817842,0.0343965517 C118.446043,0.0343965517 119.766043,1.3525 119.766043,2.97836207 C119.766043,3.66456897 119.532086,4.29560345 119.138417,4.79646552 L113.112518,10.5499138 C112.676547,10.8775 112.394245,11.3981897 112.394245,11.9835345 C112.394245,12.4326724 112.560863,12.8447414 112.832806,13.1576724 L118.580719,18.7335345 C119.326619,19.2680172 119.810935,20.139569 119.810935,21.1257759 C119.810935,22.7525 118.491799,24.0697414 116.862734,24.0697414 C115.991655,24.0697414 115.208633,23.6930172 114.669065,23.0921552 L108.969496,17.3757759 C108.640576,16.9697414 108.137266,16.7085345 107.572662,16.7085345 C106.972662,16.7085345 106.441727,17.0042241 106.115396,17.4542241 L100.297554,23.1387069 C99.7588489,23.7119828 98.9948201,24.0697414 98.1453237,24.0697414 C96.5188489,24.0697414 95.1979856,22.7525 95.1979856,21.1257759 C95.1979856,20.3473276 95.5001439,19.6387069 95.9948201,19.1119828 L102.089784,13.2516379 C102.414388,12.9266379 102.613813,12.4800862 102.613813,11.9835345 C102.613813,11.4438793 102.374676,10.9585345 101.99482,10.6300862 L95.7263309,4.72405172 C95.3663309,4.23525862 95.1530935,3.63181034 95.1530935,2.97836207 C95.1530935,1.3525 96.4730935,0.0343965517 98.101295,0.0343965517 C98.7876259,0.0343965517 99.418705,0.269741379 99.9202878,0.662844828 L106.303597,6.9162931 C106.629065,7.24043103 107.077122,7.44043103 107.572662,7.44043103 C108.126043,7.44043103 108.621583,7.18956897 108.950504,6.79560345 L114.428201,1.25508621 C114.963453,0.516293103 115.834532,0.0343965517 116.817842,0.0343965517 Z M33.7497842,14.2625862 C35.6620144,14.2625862 37.2116547,15.5522414 37.2116547,17.1427586 C37.2116547,18.7341379 35.6620144,20.0237931 33.7497842,20.0237931 C31.8384173,20.0237931 30.288777,18.7341379 30.288777,17.1427586 C30.288777,15.5522414 31.8384173,14.2625862 33.7497842,14.2625862 Z M91.0333813,9.45060345 C92.5847482,9.45060345 93.8434532,10.7066379 93.8434532,12.2557759 C93.8434532,13.8057759 92.5847482,15.0618103 91.0333813,15.0618103 L76.5539568,15.0618103 C75.0017266,15.0618103 73.7438849,13.8057759 73.7438849,12.2557759 C73.7438849,10.7066379 75.0017266,9.45060345 76.5539568,9.45060345 L91.0333813,9.45060345 Z"/>
+</svg></a>						<div class="menu-wrap">
+	<div id="menu">
+
+				<ul id="menu-primary" class="menu"><li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-318"><a href="https://www.cavex.nl/producten/">Producten</a>
+<ul class="sub-menu">
+	<li id="menu-item-1826" class="two-columns menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1826"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/">Afdrukmaterialen</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1827" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1827"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-afdrukmaterialen-nl/">Alginaat</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1862" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1862"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-nl/cavex-cream/">Cavex Cream</a></li>
+			<li id="menu-item-1874" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1874"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-nl/cavex-orthotrace/">Cavex Orthotrace</a></li>
+			<li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1861"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-nl/cavex-colorchange/">Cavex ColorChange</a></li>
+			<li id="menu-item-1871" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1871"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-nl/cavex-impressional/">Cavex Impressional</a></li>
+			<li id="menu-item-1860" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1860"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/alginaat-nl/cavex-ca37/">Cavex CA37</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1828" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1828"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/">Afdruk toebehoren</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1870" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1870"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/cavex-impresafe/">Cavex ImpreSafe</a></li>
+			<li id="menu-item-1868" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1868"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/cavex-greenclean/">Cavex GreenClean</a></li>
+			<li id="menu-item-1877" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1877"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/cavex-scanspray/">Cavex ScanSpray</a></li>
+			<li id="menu-item-1845" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1845"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/cavex-alginate-adhesive/">Cavex Alginate Adhesive</a></li>
+			<li id="menu-item-1844" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1844"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/afdruk-toebehoren-nl/alginaat-accessoires/">Cavex Alginaat Accessoires</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1829" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1829"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/overige-afdrukmaterialen-nl/">Overige afdrukmaterialen</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1875" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1875"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/overige-afdrukmaterialen-nl/cavex-outline/">Cavex Outline</a></li>
+			<li id="menu-item-1878" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1878"><a href="https://www.cavex.nl/producten/afdrukmaterialen-nl/overige-afdrukmaterialen-nl/cavex-silicona-silicona-bite/">Cavex SiliconA &#038; SiliconA Bite</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-1833" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1833"><a href="https://www.cavex.nl/producten/whitening-en-oral-care-nl/whitening-nl/">Whitening</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1851" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1851"><a href="https://www.cavex.nl/producten/whitening-en-oral-care-nl/whitening-nl/cavex-bitewhite-abc-masterkit/">Cavex Bite&#038;White ABC Masterkit</a></li>
+		<li id="menu-item-1850" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1850"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-3-syringes/">Cavex Bite&#038;White 3 Syringes</a></li>
+		<li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1856"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-refills/">Cavex Bite&#038;White Refill Whitening Gel Syringes</a></li>
+		<li id="menu-item-1854" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1854"><a href="https://www.cavex.nl/producten/whitening-en-oral-care-nl/whitening-nl/cavex-bitewhite-in-office-systeem/">Cavex Bite&#038;White In-Office</a></li>
+		<li id="menu-item-18607" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-18607"><a href="https://www.cavex.nl/producten/whitening-nl/cavex-bitewhite-aligner-whitening-pen/">Cavex Bite&#038;White Aligner Whitening Pen</a></li>
+		<li id="menu-item-1855" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1855"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-ready-2-use/">Cavex Bite&#038;White Ready 2 Use</a></li>
+		<li id="menu-item-2214" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-2214"><a href="https://www.cavex.nl/producten/whitening-en-oral-care-nl/whitening-nl/cavex-bitewhite-patient-kit/">Cavex Bite&#038;White Patient Kit</a></li>
+		<li id="menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1858"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-whitening-pen/">Cavex Bite&#038;White Whitening Pen</a></li>
+		<li id="menu-item-1853" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1853"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-impact-kit/">Cavex Bite&#038;White Impact Kit</a></li>
+		<li id="menu-item-1857" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1857"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-stainless/">Cavex Bite&#038;White StainLess</a></li>
+		<li id="menu-item-1852" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1852"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/whitening/cavex-bitewhite-barrier-spacer/">Cavex Bite&#038;White Barrier/Spacer</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1834" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1834"><a href="https://www.cavex.nl/producten/whitening-en-oral-care-nl/oral-care-nl/">Oral Care</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1865" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1865"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-exsense/">Cavex ExSense</a></li>
+		<li id="menu-item-14930" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-14930"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-prophypaste/">Cavex ProphyPaste</a></li>
+		<li id="menu-item-1866" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1866"><a href="https://www.cavex.nl/fresh4sure/">Cavex Fresh4Sure</a></li>
+		<li id="menu-item-14201" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-14201"><a href="https://www.cavex.nl/producten/cavex-bitewhite-shade-correction/">Cavex Bite&#038;White Shade Correction</a></li>
+		<li id="menu-item-1869" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1869"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-healthypops/">Cavex Healthypops</a></li>
+		<li id="menu-item-1876" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1876"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-rush-brush/">Cavex Rush Brush</a></li>
+		<li id="menu-item-1873" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1873"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-oral-pre-rinse/">Cavex Oral Pre Rinse</a></li>
+		<li id="menu-item-1859" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1859"><a href="https://www.cavex.nl/producten/whitening-en-oral-care/oral-care/cavex-boil-en-bite/">Cavex Boil&#038;Bite</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1830" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1830"><a href="https://www.cavex.nl/producten/lab-materialen-nl/">Lab materialen</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1882" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1882"><a href="https://www.cavex.nl/producten/lab-materialen-nl/cavex-wassen/">Cavex Wassen</a></li>
+		<li id="menu-item-1849" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1849"><a href="https://www.cavex.nl/producten/lab-materialen-nl/cavex-baseplates/">Cavex Baseplates</a></li>
+		<li id="menu-item-1863" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1863"><a href="https://www.cavex.nl/producten/lab-materialen-nl/cavex-dental-trays/">Cavex Dental Trays</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1840" class="two-columns menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1840"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/">Restauratiematerialen</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1831" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1831"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/">Quadrant</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1885" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1885"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-anterior-shine/">Quadrant Anterior Shine</a></li>
+			<li id="menu-item-1894" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1894"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-universal-lc/">Quadrant Universal LC</a></li>
+			<li id="menu-item-1887" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1887"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-flow/">Quadrant Flow</a></li>
+			<li id="menu-item-1891" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1891"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-total-etch/">Quadrant Total Etch</a></li>
+			<li id="menu-item-1893" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1893"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-bondings/">Quadrant Bondings</a></li>
+			<li id="menu-item-1886" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1886"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-finisense/">Quadrant FiniSense</a></li>
+			<li id="menu-item-1888" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1888"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/quadrant-nl/quadrant-toebehoren/">Quadrant Toebehoren</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1832" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1832"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/cementen-nl/">Cementen</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1879" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1879"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/cementen-nl/cavex-temporary-cement/">Cavex Temporary Cement</a></li>
+			<li id="menu-item-1867" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1867"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/cementen-nl/cavex-glass-ionomer-cement/">Cavex Glass Ionomer Cement</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1841" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1841"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/amalgaam-nl/">Amalgaam</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1848" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1848"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/amalgaam-nl/cavex-avalloy/">Cavex Avalloy</a></li>
+			<li id="menu-item-1872" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1872"><a href="https://www.cavex.nl/producten/restauratiematerialen-nl/amalgaam-nl/cavex-non-gamma-2/">Cavex Non Gamma-2</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-1837" class="two-columns menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1837"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/">Apparaten &amp; disposables</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1835" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1835"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/apparaten-nl/">Apparaten</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1880" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1880"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/apparaten-nl/cavex-vacuformer-systeem/">Cavex VacuFormer Systeem</a></li>
+			<li id="menu-item-1846" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1846"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/apparaten-nl/cavex-alginate-mixer-3/">Cavex Alginate Mixer 3</a></li>
+			<li id="menu-item-1847" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1847"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/apparaten-nl/cavex-alginate-mixer-ii/">Cavex Alginate Mixer II</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1839" class="menu-item menu-item-type-taxonomy menu-item-object-product_categories menu-item-has-children menu-item-1839"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/disposables-nl/">Disposables</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1864" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1864"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/disposables-nl/cavex-dispotrays/">Cavex Dispotrays</a></li>
+			<li id="menu-item-1881" class="menu-item menu-item-type-post_type menu-item-object-cpt_products menu-item-1881"><a href="https://www.cavex.nl/producten/apparaten-en-disposables-nl/disposables-nl/cavex-vibringe/">Cavex Vibringe</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-15034" class="menu-item menu-item-type-post_type menu-item-object-3d-flip-book menu-item-15034"><a href="https://www.cavex.nl/catalogus/">Cavex Catalogus</a></li>
+	<li id="menu-item-1843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1843"><a href="https://www.cavex.nl/private-label/">Private label</a></li>
+</ul>
+</li>
+<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://www.cavex.nl/cavex-academy/">Academy</a></li>
+<li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="https://www.cavex.nl/news/">Nieuws</a></li>
+<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://www.cavex.nl/distributors/">Distributeurs</a></li>
+<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-316"><a href="https://www.cavex.nl/about/">Over ons</a>
+<ul class="sub-menu">
+	<li id="menu-item-10623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10623"><a href="https://www.cavex.nl/about/">Over ons</a></li>
+	<li id="menu-item-9417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9417"><a href="https://www.cavex.nl/werken-bij-cavex/">Werken bij Cavex</a></li>
+	<li id="menu-item-14584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14584"><a href="https://www.cavex.nl/events/">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-20166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20166"><a href="https://www.cavex.nl/beeldmateriaal/">Beeldmateriaal</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="https://www.cavex.nl/contact/">Contact</a></li>
+</ul>		
+	</div>
+	<div class="menu-side">
+		<ul>
+			<li class="search-icon">
+				<div class="icon">
+					<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <path d="M15.9200059,13.5168111 L16.0142132,13.5999997 L17.7071068,15.2928932 C18.0976311,15.6834175 18.0976311,16.3165825 17.7071068,16.7071068 C17.3466228,17.0675907 16.7793918,17.0953203 16.3871006,16.7902954 L16.2928932,16.7071068 L14.5999997,15.0142132 C14.2094754,14.623689 14.2094754,13.990524 14.5999997,13.5999997 C14.9604836,13.2395157 15.5277147,13.2117862 15.9200059,13.5168111 Z M9.8,3 C13.0032515,3 15.6,5.59674845 15.6,8.8 C15.6,12.0032515 13.0032515,14.6 9.8,14.6 C6.59674845,14.6 4,12.0032515 4,8.8 C4,5.59674845 6.59674845,3 9.8,3 Z M9.8,5 C7.70131795,5 6,6.70131795 6,8.8 C6,10.898682 7.70131795,12.6 9.8,12.6 C11.898682,12.6 13.6,10.898682 13.6,8.8 C13.6,6.70131795 11.898682,5 9.8,5 Z" transform="translate(-4 -3)"/>
+</svg>				</div>
+			</li>
+			<li class="language-switch">
+				
+<div role="navigation" aria-label="Taalschakelaar" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-nl wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.cavex.nl/" hreflang="nl" lang="nl" class="wpml-ls-link" aria-current="page" aria-label="Overschakelen naar NL" title="Overschakelen naar NL">
+					<span class="wpml-ls-native">NL</span></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.cavex.nl/?lang=en" hreflang="en" lang="en" class="wpml-ls-link" aria-label="Overschakelen naar EN" title="Overschakelen naar EN">
+					<span class="wpml-ls-native">EN</span></a>
+			</li></ul>
+</div>
+				<!--
+				<div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-touch-device wpml-ls-legacy-list-vertical">
+					<ul>
+						<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-nl wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-vertical">
+							<a href="#" class="wpml-ls-link"><span class="wpml-ls-native">NL</span></a>
+						</li>
+						<li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item wpml-ls-item-legacy-list-vertical">
+							<a href="#" class="wpml-ls-link"><span class="wpml-ls-native" lang="en">EN</span></a>
+						</li>
+					</ul>
+				</div>-->
+			</li>
+			<li class="menu-button" onclick="toggleClass('.menu-button', 'open');toggleClass('#menu', 'open');toggleClass('body', 'no-scroll');">
+				<div class="bars"></div>
+			</li>
+		</ul>
+	</div>
+</div>					</div>
+				</div>
+			</header>
+
+			
+<div class="search-popup blue-deep-bg pt-100 pb-100 pt-40-mob pb-40-mob">
+	<div class="wrap w-600 white-text white-title">
+		<span class="h2">Doorzoek de site</span>
+		
+<form role="search" method="get" class="searchform" action="https://www.cavex.nl/zoekresultaten/" autocomplete="off">
+		<input type="search" class="search-field icon-in-front" placeholder="Wat zoekt u?" value="" name="overall_search" title="Search for:" data-swplive="true" swpparentel=".search-popup" data-swpengine="overallfrontendsearch"/>
+	<button class="icon-only in-front" type="submit" class="search-submit"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <path d="M15.9200059,13.5168111 L16.0142132,13.5999997 L17.7071068,15.2928932 C18.0976311,15.6834175 18.0976311,16.3165825 17.7071068,16.7071068 C17.3466228,17.0675907 16.7793918,17.0953203 16.3871006,16.7902954 L16.2928932,16.7071068 L14.5999997,15.0142132 C14.2094754,14.623689 14.2094754,13.990524 14.5999997,13.5999997 C14.9604836,13.2395157 15.5277147,13.2117862 15.9200059,13.5168111 Z M9.8,3 C13.0032515,3 15.6,5.59674845 15.6,8.8 C15.6,12.0032515 13.0032515,14.6 9.8,14.6 C6.59674845,14.6 4,12.0032515 4,8.8 C4,5.59674845 6.59674845,3 9.8,3 Z M9.8,5 C7.70131795,5 6,6.70131795 6,8.8 C6,10.898682 7.70131795,12.6 9.8,12.6 C11.898682,12.6 13.6,10.898682 13.6,8.8 C13.6,6.70131795 11.898682,5 9.8,5 Z" transform="translate(-4 -3)"/>
+</svg></button>
+	<input type="hidden" value="nl" name="lang" />
+</form>		<p>Of <a href="https://www.cavex.nl/producten/">bekijk alle producten</a></p>
+	</div>
+</div>
+			<main id="main">
+
+
+<section class="topbanner section blue-deep-bg pt-100 pt-40-mob pb-100 pb-40-mob">
+	<div class="wrap w-600">
+		<div class="content default-text large-spacing white-text white-title large-text"> <!-- Large spacing -->
+			<h1>Niks gevonden (404)</h1>
+		</div>
+	</div>
+</section>
+
+<section class="default-content overlap-top-blue section grey-bg">
+	<div class="overflow-hidden-wrap">
+		<div class="wrap">
+
+			<div class="content-blocks white-bg">
+
+				<div class="content-block text default-text white-bg pt-100 pt-40-mob">
+					<div class="wrap w-600">
+						<h2>Deze pagina bestaat niet</h2>
+<p>Klik op de onderstaande knop om naar de homepagina te navigeren.<br />
+<a class="btn" href="/">Naar de homepagina</a></p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+	
+			</main>
+
+			
+			<footer id="footer" class="pt-100 pt-40-mob grey-bg">
+
+				<div class="section">
+					<div class="wrap no-p-mob">
+						<div class="newsletter blue-rinse-bg">
+							<div class="content white-text white-title">
+																	<span class="h2">Neem contact met ons op</span>
+								
+								
+																	<div class="subscribe-form">
+										
+                <div class='gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_68' ><div id='gf_68' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_68' id='gform_68'  action='/wp-content/uploads/2019/11/Cavex-ColorChange-Pack-1.jpg#gf_68' data-formid='68' novalidate>
+                        <div class='gform-body gform_body'><ul id='gform_fields_68' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_68_3" class="gfield gfield--type-html gfield--input-type-html gfield--width-full gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><p>
+  Klik <a href="https://www.cavex.nl/contact/" style="text-decoration: underline;">hier</a>
+  om het contactformulier te openen
+</p>
+
+<style>
+input#gform_submit_button_68 {
+    display: none;
+}
+</style></li></ul></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_68' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Inschrijven'  /> <input type='hidden' name='gform_ajax' value='form_id=68&amp;title=&amp;description=&amp;tabindex=0&amp;theme=legacy&amp;styles=[]&amp;hash=2e0d5bdb57c8acb736d6716469773d4a' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_68' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_68' id='gform_theme_68' value='legacy' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_68' id='gform_style_settings_68' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_68' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='68' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='EUR' value='9ILD2s4rr86np60K/RJVsQdXxnSG8vhgyANVXhkhpkdxp6uFFJ+D53WrMESwpSv7s3J+hvt6psoEVydWVlXYIPhbVxN0+Ggi6XdOwsXodS8+Qg8=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_68' value='WyJbXSIsIjk4NTZhZTZkNzNhOWRlZDIwNmFiNWVkZDYzNzg1NzVkIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_68' id='gform_target_page_number_68' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_68' id='gform_source_page_number_68' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_68' id='gform_ajax_frame_68' title='Dit iframe bevat de vereiste logica om Ajax aangedreven Gravity Forms te verwerken.'></iframe>
+		                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 68, 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', true );jQuery('#gform_ajax_frame_68').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_68');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_68').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_68').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_68').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_68').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_68').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_68').val();gformInitSpinner( 68, 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7', true );jQuery(document).trigger('gform_page_loaded', [68, current_page]);window['gf_submitting_68'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_68').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_68').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [68]);window['gf_submitting_68'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_68').text());}else{jQuery('#gform_68').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "68", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_68" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_68";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_68" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 68, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+									</div>
+															</div>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="section blue-deep-bg pt-100 pt-40-mob pb-100 pb-40-mob">
+					<div class="wrap">
+						<div class="contact-data white-text white-title pt-100">
+							<ul>
+								<li>
+									<h4>Social media</h4>
+								</li>
+								<li class="social">
+										                                    <a href="https://www.instagram.com/cavexholland/" target="_blank" rel="noopener noreferrer">
+		                                    <svg fill="#000000" viewBox="0 0 19.2 19.2" data-name="Instagram w/circle" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z"></path></g></svg>	                                    </a>
+                                    																			<a href="https://www.youtube.com/user/Cavex1908" target="_blank" rel="noopener noreferrer">
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <path d="M55,50 C63.2830047,50 70,56.7169953 70,65 C70,73.2830047 63.2830047,80 55,80 C46.7169953,80 40,73.2830047 40,65 C40,56.7169953 46.7169953,50 55,50 Z M55.1740927,58.4379331 L54.8259073,58.4379166 C53.8426795,58.4415618 48.9819336,58.4771024 47.6654816,58.8236237 C46.8778991,59.0396881 46.229248,59.6883392 46.0131836,60.4912567 C45.6670037,61.8064118 45.631192,64.3875081 45.6274874,64.9074539 L45.6274874,65.0929941 C45.631192,65.6153789 45.6670037,68.2075422 46.0131836,69.5087433 C46.2294769,70.3116608 46.8625641,70.9449768 47.6654816,71.1610413 C48.9956959,71.5213247 53.8455026,71.5582769 54.8263417,71.5620669 L55.1740927,71.5620834 C56.1573205,71.5584382 61.0180664,71.5228976 62.3345184,71.1763763 C63.1374359,70.9603119 63.7705231,70.3272247 63.9868164,69.5243073 C64.3328633,68.2091522 64.3686613,65.6278719 64.3723645,65.1078881 L64.3725408,64.8530426 C64.3691307,64.2022314 64.3329015,61.7558289 63.9868164,60.4912567 C63.7705231,59.6883392 63.1374359,59.0550232 62.3345184,58.8389587 C61.0180664,58.4786753 56.1573205,58.4417231 55.1740927,58.4379331 Z M53.1316376,62.1897888 L58.0109406,65 L53.1316376,67.8102112 L53.1316376,62.1897888 Z" transform="translate(-40 -50)"/>
+</svg>										</a>
+																												<a href="https://www.facebook.com/cavexhollandbv/" target="_blank" rel="noopener noreferrer">
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <path d="M96,50 C104.284271,50 111,56.7157288 111,65 C111,73.2842712 104.284271,80 96,80 C87.7157288,80 81,73.2842712 81,65 C81,56.7157288 87.7157288,50 96,50 Z M97.1305216,55.8191914 C93.7967129,55.8191914 93.0391993,58.3163393 93.0391993,59.9110485 L93.0391993,59.9110485 L93.0391993,62.1410745 L91.1105209,62.1410745 L91.1105209,65.5871867 L93.0391993,65.5871867 L93.0391993,75.3928839 L97.094424,75.3928839 L97.094424,65.5871867 L99.7709901,65.5871867 L100.125281,62.1442832 L97.0946914,62.1442832 L97.0946914,60.116136 C97.0946914,59.3554137 97.5973832,59.1767977 97.9548825,59.1767977 L97.9548825,59.1767977 L100.134372,59.1767977 L100.134372,55.8317587 Z" transform="translate(-81 -50)"/>
+</svg>										</a>
+																												<a href="https://nl.linkedin.com/company/mid-dental" target="_blank" rel="noopener noreferrer">
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <path d="M136,50 C127.716995,50 121,56.7169953 121,65 C121,73.2830047 127.716995,80 136,80 C144.283005,80 151,73.2830047 151,65 C151,56.7169953 144.283005,50 136,50 Z M131.641174,72.6757812 L127.987991,72.6757812 L127.987991,61.6851044 L131.641174,61.6851044 L131.641174,72.6757812 Z M129.814697,60.1843262 L129.790894,60.1843262 C128.565002,60.1843262 127.772156,59.3404388 127.772156,58.2857513 C127.772156,57.2072601 128.589264,56.3867188 129.838959,56.3867188 C131.088654,56.3867188 131.857697,57.2072601 131.8815,58.2857513 C131.8815,59.3404388 131.088654,60.1843262 129.814697,60.1843262 Z M144.813782,72.6757812 L141.161057,72.6757812 L141.161057,66.7960358 C141.161057,65.3183746 140.632111,64.3106079 139.310318,64.3106079 C138.301178,64.3106079 137.700134,64.990387 137.436005,65.6465912 C137.339417,65.881424 137.315842,66.2096405 137.315842,66.5380859 L137.315842,72.6757812 L133.662888,72.6757812 C133.662888,72.6757812 133.710724,62.7162171 133.662888,61.6851044 L137.315842,61.6851044 L137.315842,63.241272 C137.8013,62.4923706 138.669907,61.4271546 140.608078,61.4271546 C143.011566,61.4271546 144.813782,62.9979706 144.813782,66.3737488 L144.813782,72.6757812 Z" transform="translate(-121 -50)"/>
+</svg>										</a>
+																	</li>
+							</ul>
+							<ul>
+								<li>
+									<h4>Contact</h4>
+								</li>
+																	<li>
+										<p>Postbus 852</p>
+									</li>
+																									<li>
+										<p>2003 RW Haarlem</p>
+									</li>
+																									<li>
+										<p>Nederland</p>
+									</li>
+																									<li>
+										<p>T <a href="tel:023 530 77 00">023 530 77 00</a></p>
+									</li>
+																									<li>
+										<p>E <a href="mailto:dental@cavex.nl" target="_blank">dental@cavex.nl</a></p>
+									</li>
+															</ul>
+							<ul>
+								<li>
+									<h4>Legal</h4>
+								</li>
+								<li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a href="https://www.cavex.nl/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a href="https://www.cavex.nl/privacybeleid/">Privacy Policy</a></li>
+<li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a href="https://www.cavex.nl/algemene-voorwaarden/">General Conditions</a></li>
+<li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://www.cavex.nl/registration-certification/">Registration &#038; Certification</a></li>
+								<li>
+									<p>©Cavex Holland BV</p>
+								</li>
+							</ul>
+						</div>
+						<div class="foot-note white-text pt-100 pt-40-mob">
+							<p class="h1">Your<br /> impression<br /> is our<br /> specialty</p>
+							<a class="logo" href="https://www.cavex.nl">
+								<svg xmlns="http://www.w3.org/2000/svg" width="120" height="25" viewBox="0 0 120 25">
+  <path fill-rule="evenodd" d="M91.0333813,18.5461207 C92.5847482,18.5461207 93.8434532,19.8021552 93.8434532,21.3521552 C93.8434532,22.9012931 92.5847482,24.1573276 91.0333813,24.1573276 L76.5539568,24.1573276 C75.0017266,24.1573276 73.7438849,22.9012931 73.7438849,21.3521552 C73.7438849,19.8021552 75.0017266,18.5461207 76.5539568,18.5461207 L91.0333813,18.5461207 Z M47.1618129,0.0803448276 C48.2573525,0.0803448276 49.2138993,0.676034483 49.7206619,1.56224138 L57.9859856,15.2915517 C58.2121727,15.7122414 58.6585036,15.9975862 59.1713094,15.9975862 C59.7290072,15.9975862 60.2072806,15.6605172 60.4110216,15.1768966 L68.6685755,1.99672414 C69.2633957,0.951896552 70.3891511,0.176896552 71.6797986,0.176896552 L91.0308777,0.176896552 C92.5882878,0.176896552 93.8513094,1.36741379 93.8513094,2.92172414 C93.8513094,4.47689655 92.5882878,5.77603448 91.0308777,5.77603448 L74.3974964,5.77603448 C73.4564892,5.77603448 72.6415252,6.36482759 72.2599424,7.1587931 L62.8757698,22.2044828 C62.0797986,23.3708621 60.7373525,24.1389655 59.2153381,24.1389655 C57.6898705,24.1389655 56.3439712,23.3656897 55.5497266,22.1915517 L44.4173525,4.10275862 C44.2852662,3.76827586 44.2136115,3.40362069 44.2136115,3.02431034 C44.2136115,1.39844828 45.5336115,0.0803448276 47.1618129,0.0803448276 Z M14.8938129,0.332758621 C16.1930935,0.685344828 16.9882014,1.69568966 16.9882014,3.05344828 C16.9882014,4.60948276 15.6509353,5.7387931 14.0935252,5.7387931 C13.5645158,5.72254642 13.3346252,5.71779739 13.0683821,5.7168745 L12.8234466,5.71684154 C12.7785321,5.71693257 12.7309197,5.71705696 12.6796312,5.71719233 L12.3199632,5.71795748 C12.2500583,5.71804734 12.1745213,5.71810345 12.0923741,5.71810345 C8.5752518,5.71810345 5.72546763,8.56465517 5.72546763,12.0758621 C5.72546763,15.5853448 8.5752518,18.3439655 12.0923741,18.3439655 L18.6405755,18.3439655 C19.2397122,18.3439655 19.7792806,18.062931 20.1539568,17.6301724 L30.0742446,2.15603448 C30.8969784,1.02068966 32.2359712,0.281034483 33.7467626,0.281034483 C35.0745324,0.281034483 36.4601439,1.09827586 37.0964029,1.75948276 C37.5110536,2.19160847 39.8783566,5.97939668 42.3325734,9.97478726 L42.7420944,10.6420681 C45.2002099,14.6508094 47.641587,18.6922609 48.2004875,19.6183623 L48.2999147,19.7831628 L48.2999147,19.7831628 L48.3194245,19.8155172 L48.3194245,19.8155172 C48.5093525,20.2025862 48.6164029,20.637069 48.6164029,21.0956897 C48.6164029,22.6974138 47.3153957,23.9965517 45.7113669,23.9965517 C44.7781295,23.9965517 43.9476259,23.5568966 43.4166906,22.8741379 L34.6169784,8.51637931 C34.4339568,8.22844828 34.1128058,8.03706897 33.7467626,8.03706897 C33.3936691,8.03706897 33.0820144,8.21465517 32.8964029,8.48534483 L24.0405755,22.8362069 C23.5148201,23.5974138 22.6446043,24.1034483 21.6621583,24.1034483 L12.0923741,24.1034483 C5.41294964,24.1034483 6.87795145e-14,18.7431034 6.87795145e-14,12.0758621 C6.87795145e-14,5.40689655 5.41294964,2.33989073e-14 12.0923741,2.33989073e-14 C12.7528058,2.33989073e-14 13.8656115,0.0163793103 14.8938129,0.332758621 Z M116.817842,0.0343965517 C118.446043,0.0343965517 119.766043,1.3525 119.766043,2.97836207 C119.766043,3.66456897 119.532086,4.29560345 119.138417,4.79646552 L113.112518,10.5499138 C112.676547,10.8775 112.394245,11.3981897 112.394245,11.9835345 C112.394245,12.4326724 112.560863,12.8447414 112.832806,13.1576724 L118.580719,18.7335345 C119.326619,19.2680172 119.810935,20.139569 119.810935,21.1257759 C119.810935,22.7525 118.491799,24.0697414 116.862734,24.0697414 C115.991655,24.0697414 115.208633,23.6930172 114.669065,23.0921552 L108.969496,17.3757759 C108.640576,16.9697414 108.137266,16.7085345 107.572662,16.7085345 C106.972662,16.7085345 106.441727,17.0042241 106.115396,17.4542241 L100.297554,23.1387069 C99.7588489,23.7119828 98.9948201,24.0697414 98.1453237,24.0697414 C96.5188489,24.0697414 95.1979856,22.7525 95.1979856,21.1257759 C95.1979856,20.3473276 95.5001439,19.6387069 95.9948201,19.1119828 L102.089784,13.2516379 C102.414388,12.9266379 102.613813,12.4800862 102.613813,11.9835345 C102.613813,11.4438793 102.374676,10.9585345 101.99482,10.6300862 L95.7263309,4.72405172 C95.3663309,4.23525862 95.1530935,3.63181034 95.1530935,2.97836207 C95.1530935,1.3525 96.4730935,0.0343965517 98.101295,0.0343965517 C98.7876259,0.0343965517 99.418705,0.269741379 99.9202878,0.662844828 L106.303597,6.9162931 C106.629065,7.24043103 107.077122,7.44043103 107.572662,7.44043103 C108.126043,7.44043103 108.621583,7.18956897 108.950504,6.79560345 L114.428201,1.25508621 C114.963453,0.516293103 115.834532,0.0343965517 116.817842,0.0343965517 Z M33.7497842,14.2625862 C35.6620144,14.2625862 37.2116547,15.5522414 37.2116547,17.1427586 C37.2116547,18.7341379 35.6620144,20.0237931 33.7497842,20.0237931 C31.8384173,20.0237931 30.288777,18.7341379 30.288777,17.1427586 C30.288777,15.5522414 31.8384173,14.2625862 33.7497842,14.2625862 Z M91.0333813,9.45060345 C92.5847482,9.45060345 93.8434532,10.7066379 93.8434532,12.2557759 C93.8434532,13.8057759 92.5847482,15.0618103 91.0333813,15.0618103 L76.5539568,15.0618103 C75.0017266,15.0618103 73.7438849,13.8057759 73.7438849,12.2557759 C73.7438849,10.7066379 75.0017266,9.45060345 76.5539568,9.45060345 L91.0333813,9.45060345 Z"/>
+</svg>							</a>
+						</div>
+					</div>
+				</div>
+				
+			</footer>	
+
+		</div>
+		<!-- END CONTAINER -->
+
+		<div class="fullscreen-bg-overlay"></div>
+
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/cavex/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-content/plugins/vimeo/build/index.js?ver=075a52cf774c248d3c1753e0e3e5be8e" id="vimeo-for-wordpress-public-js"></script>
+<script type="text/javascript" id="cpt-alm-script-js-extra">
+/* <![CDATA[ */
+var cpt_ala_params = {"ajaxurl":"https://www.cavex.nl/wp-admin/admin-ajax.php","current_page":"1","nonce":"adfb80bc65"};
+//# sourceURL=cpt-alm-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-content/plugins/cpt-ajax-load-more/assets/js/app.js?ver=1.0.0" id="cpt-alm-script-js"></script>
+<script type="text/javascript" id="leadin-script-loader-js-js-extra">
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"other","leadinPluginVersion":"11.3.45"};
+//# sourceURL=leadin-script-loader-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://js.hs-scripts.com/7893693.js?integration=WordPress&amp;ver=11.3.45" id="leadin-script-loader-js-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+/* <![CDATA[ */
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Sluiten","currentText":"Vandaag","monthNames":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"monthNamesShort":["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"],"nextText":"Volgende","prevText":"Vorige","dayNames":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"dayNamesShort":["zo","ma","di","wo","do","vr","za"],"dayNamesMin":["Z","M","D","W","D","V","Z"],"dateFormat":"d MM yy","firstDay":1,"isRTL":false});});
+//# sourceURL=jquery-ui-datepicker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-03-28 07:28:56+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Notifications":["Meldingen"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.cavex.nl/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.cavex.nl/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.2" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Ma","tuesday":"Di","wednesday":"Wo","thursday":"Do","friday":"Vr","saturday":"Za","sunday":"Zo"},"months":{"january":"Januari","february":"Februari","march":"Maart","april":"April","may":"Mei","june":"Juni","july":"Juli","august":"Augustus","september":"September","october":"Oktober","november":"November","december":"December"},"firstDay":1,"iconText":"Selecteer een datum"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Dit bestandstype is niet toegestaan. Moet \u00e9\u00e9n van de volgende zijn:","delete_file":"Dit bestand verwijderen","in_progress":"in behandeling","file_exceeds_limit":"Bestand overschrijdt limiet bestandsgrootte","illegal_extension":"Dit type bestand is niet toegestaan.","max_reached":"Maximale aantal bestanden bereikt","unknown_error":"Er was een probleem bij het opslaan van het bestand op de server","currently_uploading":"Wacht tot het uploaden is voltooid","cancel":"Annuleren","cancel_upload":"Deze upload annuleren","cancelled":"Geannuleerd","error":"Fout","message":"Bericht"},"vars":{"images_url":"https://www.cavex.nl/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2,"code":"EUR"},"base_url":"https://www.cavex.nl/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://www.cavex.nl/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"8265b1a2e08e27a3ea9d20ef60cf34bb","strings":{"newRowAdded":"Nieuwe rij toegevoegd.","rowRemoved":"Rij verwijderd","formSaved":"Het formulier is opgeslagen. De inhoud bevat de link om terug te keren en het formulier in te vullen."}};
+//# sourceURL=gform_gravityforms-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.cavex.nl/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.2" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.cavex.nl/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.cavex.nl/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"8265b1a2e08e27a3ea9d20ef60cf34bb"},"ajax":{"ajaxurl":"https://www.cavex.nl/wp-admin/admin-ajax.php","ajax_submission_nonce":"2c7f5da720","i18n":{"step_announcement":"Stap %1$s van %2$s, %3$s","unknown_error":"Er was een onbekende fout bij het verwerken van je aanvraag. Probeer het opnieuw.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.cavex.nl/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"14a7e29552"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.cavex.nl/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3" id="gform_gravityforms_theme-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.cavex.nl/wp-includes/js/wp-emoji-release.min.js?ver=98261694fb74b7043f58ec4e1dc9654d"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.cavex.nl/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 68) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "68", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_68" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_68";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_68" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 68, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+		
+
+		<script type='text/javascript' src='https://www.cavex.nl/wp-content/themes/cavex/library/js/cavex-compressed.js?28265155648'></script>
+
+		
+	</body>
+
+</html> <!-- end page -->
