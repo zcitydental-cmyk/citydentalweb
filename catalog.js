@@ -230,98 +230,552 @@ const productData = [
     { id: 351, category: 'Sterilization', name: 'Enzymatic Detergent 5L', price: '1,100 EGP', desc: 'Multi-enzyme instrument pre-soak and cleaning solution.', img: '' },
 ];
 
-function renderProducts(filter = 'all', searchQuery = '') {
-    const grid = document.querySelector('.product-grid');
-    if (!grid) return;
+// ==========================================================================
+// ADVANCED E-COMMERCE CATALOG ENGINE (City Dental)
+// ==========================================================================
 
-    grid.innerHTML = '';
-    let filtered = filter === 'all' ? productData : productData.filter(p => p.category === filter);
+// Global state
+let currentCategory = 'all';
+let currentSearch = '';
+let currentSort = 'default';
+let currentPage = 1;
+const itemsPerPage = 24;
+let currentLang = document.documentElement.lang || 'en';
 
-    if (searchQuery) {
-        const query = searchQuery.toLowerCase();
-        filtered = filtered.filter(p =>
-            p.name.toLowerCase().includes(query) ||
-            p.category.toLowerCase().includes(query) ||
-            p.desc.toLowerCase().includes(query)
-        );
+// Country flag & origin dictionary
+const ORIGIN_DATA = {
+    'germany': { en: 'Germany', ar: 'ألمانيا', flag: '🇩🇪' },
+    'italy': { en: 'Italy', ar: 'إيطاليا', flag: '🇮🇹' },
+    'italian': { en: 'Italy', ar: 'إيطاليا', flag: '🇮🇹' },
+    'south korea': { en: 'S. Korea', ar: 'كوريا ج.', flag: '🇰🇷' },
+    'korea': { en: 'S. Korea', ar: 'كوريا ج.', flag: '🇰🇷' },
+    'japan': { en: 'Japan', ar: 'اليابان', flag: '🇯🇵' },
+    'japanese': { en: 'Japan', ar: 'اليابان', flag: '🇯🇵' },
+    'egypt': { en: 'Egypt', ar: 'مصر', flag: '🇪🇬' },
+    'pakistan': { en: 'Pakistan', ar: 'باكستان', flag: '🇵🇰' },
+    'usa': { en: 'USA', ar: 'أمريكا', flag: '🇺🇸' },
+    'united states': { en: 'USA', ar: 'أمريكا', flag: '🇺🇸' },
+    'france': { en: 'France', ar: 'فرنسا', flag: '🇫🇷' },
+    'french': { en: 'France', ar: 'فرنسا', flag: '🇫🇷' },
+    'china': { en: 'China', ar: 'الصين', flag: '🇨🇳' },
+    'turkey': { en: 'Turkey', ar: 'تركيا', flag: '🇹🇷' },
+    'india': { en: 'India', ar: 'الهند', flag: '🇮🇳' },
+    'netherlands': { en: 'Netherlands', ar: 'هولندا', flag: '🇳🇱' }
+};
+
+function getProductOrigin(desc) {
+    if (!desc) return null;
+    const lower = desc.toLowerCase();
+    for (const [key, data] of Object.entries(ORIGIN_DATA)) {
+        if (lower.includes(key)) {
+            return data;
+        }
     }
+    return null;
+}
 
-    if (filtered.length === 0) {
-        grid.innerHTML = '<div class="no-results">No products found for this selection.</div>';
-        return;
-    }
+function getStockNumber(desc) {
+    if (!desc) return null;
+    const match = desc.match(/\(Stock:\s*([\d\.]+)/i);
+    return match ? match[1] : null;
+}
 
-    filtered.forEach(p => {
-        const card = document.createElement('div');
-        card.className = 'product-card animate-in';
-        card.innerHTML = `
-            <div class="prod-img">
-                ${p.img ? `<img src="${p.img}" alt="${p.name}" loading="lazy">` : `<div class="placeholder-icon"><i class="fas fa-boxes-stacked"></i></div>`}
-            </div>
-            <div class="prod-info">
-                <span class="tag">${p.category}</span>
-                <h3>${p.name}</h3>
-                <p class="description">${p.desc}</p>
-                <p class="price">${p.price}</p>
-                <button class="add-to-cart" onclick="addToCart(${p.id})">Add to Cart</button>
-            </div>
-        `;
-        grid.appendChild(card);
+function parseNumericPrice(priceStr) {
+    if (!priceStr) return Infinity;
+    const cleaned = priceStr.replace(/,/g, '');
+    const m = cleaned.match(/(\d+)/);
+    return m ? parseInt(m[1], 10) : Infinity;
+}
+
+// Category Counts Computation
+function updateCategoryButtonCounts() {
+    const isAr = currentLang === 'ar';
+    const counts = { all: productData.length };
+    
+    productData.forEach(p => {
+        counts[p.category] = (counts[p.category] || 0) + 1;
+    });
+
+    const categoryLabelMap = {
+        'all': { en: 'All', ar: 'الكل' },
+        'Endodontics': { en: 'Endo', ar: 'عصب' },
+        'Instruments': { en: 'Instruments', ar: 'أدوات' },
+        'Prosthodontics': { en: 'Prostho', ar: 'تركيبات' },
+        'Restorative': { en: 'Resto', ar: 'ترميم' },
+        'Implantology': { en: 'Implant', ar: 'زراعة' },
+        'Orthodontics': { en: 'Ortho', ar: 'تقويم' },
+        'Equipment': { en: 'Equipment', ar: 'أجهزة' }
+    };
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        const cat = btn.dataset.category;
+        const count = counts[cat] || 0;
+        const baseName = categoryLabelMap[cat] ? (isAr ? categoryLabelMap[cat].ar : categoryLabelMap[cat].en) : cat;
+        btn.innerHTML = `${baseName} <span class="cat-count">${count}</span>`;
     });
 }
 
-function addToCart(id) {
-    const product = productData.find(p => p.id === id);
-    if (product) {
-        alert(`Added ${product.name} to cart!`);
+// Filtering and Sorting
+function getFilteredAndSortedProducts() {
+    let list = currentCategory === 'all' 
+        ? productData 
+        : productData.filter(p => p.category === currentCategory);
+
+    if (currentSearch.trim()) {
+        const query = currentSearch.trim().toLowerCase();
+        list = list.filter(p => {
+            const origin = getProductOrigin(p.desc);
+            const originStr = origin ? `${origin.en.toLowerCase()} ${origin.ar}` : '';
+            return p.name.toLowerCase().includes(query) ||
+                   p.category.toLowerCase().includes(query) ||
+                   p.desc.toLowerCase().includes(query) ||
+                   p.price.toLowerCase().includes(query) ||
+                   originStr.includes(query);
+        });
     }
+
+    // Sort
+    const sorted = [...list];
+    if (currentSort === 'price-asc') {
+        sorted.sort((a, b) => parseNumericPrice(a.price) - parseNumericPrice(b.price));
+    } else if (currentSort === 'price-desc') {
+        sorted.sort((a, b) => parseNumericPrice(b.price) - parseNumericPrice(a.price));
+    } else if (currentSort === 'name-asc') {
+        sorted.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    return sorted;
 }
 
+// Render Products Grid
+function renderProducts(resetPagination = false) {
+    const grid = document.querySelector('.product-grid');
+    if (!grid) return;
+
+    if (resetPagination) {
+        currentPage = 1;
+    }
+
+    const filtered = getFilteredAndSortedProducts();
+    const isAr = currentLang === 'ar';
+    const totalCount = filtered.length;
+    const maxVisible = currentPage * itemsPerPage;
+    const visibleProducts = filtered.slice(0, maxVisible);
+
+    // Update status counters
+    const countBadge = document.getElementById('results-count-text');
+    if (countBadge) {
+        if (totalCount === 0) {
+            countBadge.innerHTML = isAr 
+                ? 'لم يتم العثور على أي منتجات مطابقة' 
+                : 'No products matched your criteria';
+        } else {
+            countBadge.innerHTML = isAr 
+                ? `عرض <strong>${visibleProducts.length}</strong> من أصل <strong>${totalCount}</strong> منتج`
+                : `Showing <strong>${visibleProducts.length}</strong> of <strong>${totalCount}</strong> products`;
+        }
+    }
+
+    // Active Category Pill indicator
+    const catPill = document.getElementById('active-category-pill');
+    const catText = document.getElementById('active-category-text');
+    if (catPill && catText) {
+        if (currentCategory !== 'all') {
+            catPill.style.display = 'inline-flex';
+            catText.textContent = currentCategory;
+        } else {
+            catPill.style.display = 'none';
+        }
+    }
+
+    // Update Pagination & Load More button
+    const paginationWrap = document.getElementById('catalog-pagination');
+    const progressBar = document.getElementById('load-progress-bar');
+    const paginationText = document.getElementById('pagination-status-text');
+    const loadMoreBtn = document.getElementById('load-more-btn');
+
+    if (paginationWrap) {
+        if (totalCount === 0) {
+            paginationWrap.style.display = 'none';
+        } else {
+            paginationWrap.style.display = 'block';
+            const progressPct = Math.min(100, Math.round((visibleProducts.length / totalCount) * 100));
+            if (progressBar) progressBar.style.width = `${progressPct}%`;
+            
+            if (paginationText) {
+                paginationText.textContent = isAr 
+                    ? `عرض ${visibleProducts.length} من أصل ${totalCount} (${progressPct}%)`
+                    : `Showing ${visibleProducts.length} of ${totalCount} (${progressPct}%)`;
+            }
+
+            if (loadMoreBtn) {
+                if (visibleProducts.length >= totalCount) {
+                    loadMoreBtn.style.display = 'none';
+                } else {
+                    loadMoreBtn.style.display = 'inline-flex';
+                    const remaining = totalCount - visibleProducts.length;
+                    const btnLabel = isAr 
+                        ? `عرض المزيد (${remaining} متبقي)`
+                        : `Load More (${remaining} remaining)`;
+                    loadMoreBtn.querySelector('span').textContent = btnLabel;
+                }
+            }
+        }
+    }
+
+    // Handle Empty State
+    if (totalCount === 0) {
+        grid.innerHTML = `
+            <div class="no-results" style="grid-column: 1 / -1; padding: 60px 20px; text-align: center; background: #f8fafc; border-radius: 20px; border: 1.5px dashed var(--platinum);">
+                <i class="fas fa-search" style="font-size: 40px; color: var(--secondary); margin-bottom: 15px;"></i>
+                <h3 style="font-size: 20px; color: var(--primary); margin-bottom: 8px;">
+                    ${isAr ? 'لم نجد أي منتج يطابق بحثك' : 'No matching products found'}
+                </h3>
+                <p style="color: var(--gray); font-size: 14px; margin-bottom: 20px;">
+                    ${isAr ? 'جرّب كتابة اسم مبسط أو تصفح باقي الأقسام.' : 'Try a different keyword, check spelling, or clear active filters.'}
+                </p>
+                <button onclick="resetAllFilters()" style="padding: 10px 24px; background: var(--secondary); color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: 600;">
+                    ${isAr ? 'إعادة ضبط البحث والتصنيفات' : 'Reset All Filters'}
+                </button>
+            </div>
+        `;
+        return;
+    }
+
+    // Render Product Cards
+    grid.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+
+    visibleProducts.forEach(p => {
+        const origin = getProductOrigin(p.desc);
+        const originLabel = origin ? (isAr ? origin.ar : origin.en) : '';
+        const stock = getStockNumber(p.desc);
+        const stockNum = stock ? parseFloat(stock) : null;
+        
+        const card = document.createElement('div');
+        card.className = 'product-card animate-in';
+        card.setAttribute('data-id', p.id);
+        card.addEventListener('click', () => openProductModal(p.id));
+
+        const waText = encodeURIComponent(`Hello City Dental, I would like to inquire/order: ${p.name} (${p.price})`);
+
+        card.innerHTML = `
+            <div class="prod-img">
+                ${p.img ? `<img src="${p.img}" alt="${p.name}" loading="lazy">` : `<div class="placeholder-icon"><i class="fas fa-boxes-stacked"></i></div>`}
+                ${origin ? `<span class="origin-badge" title="${originLabel}">${origin.flag} ${originLabel}</span>` : ''}
+                <span class="category-pill-card">${p.category}</span>
+                <button class="card-quick-preview-btn" onclick="event.stopPropagation(); openProductModal(${p.id})">
+                    <i class="fas fa-eye"></i> <span>${isAr ? 'معاينة' : 'Quick View'}</span>
+                </button>
+            </div>
+            <div class="prod-info">
+                <div class="card-header-meta">
+                    <span class="tag">${p.category}</span>
+                    ${stockNum !== null ? `<span class="stock-pill ${stockNum > 0 ? 'in-stock' : 'low-stock'}">${stockNum > 0 ? `${isAr ? 'متوفر' : 'Stock'}: ${stockNum}` : (isAr ? 'استفسر' : 'Inquire')}</span>` : ''}
+                </div>
+                <h3 title="${p.name}">${p.name}</h3>
+                <p class="description">${p.desc}</p>
+                <div class="price-action-row">
+                    <div class="price-wrap">
+                        <span class="price-val">${p.price}</span>
+                    </div>
+                    <a class="btn-card-wa" href="https://wa.me/201149202220?text=${waText}" target="_blank" onclick="event.stopPropagation()" title="${isAr ? 'اطلب عبر واتساب' : 'Order via WhatsApp'}">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>${isAr ? 'طلب' : 'Order'}</span>
+                    </a>
+                </div>
+            </div>
+        `;
+        fragment.appendChild(card);
+    });
+
+    grid.appendChild(fragment);
+}
+
+// Reset filters helper
+function resetAllFilters() {
+    currentCategory = 'all';
+    currentSearch = '';
+    currentSort = 'default';
+    currentPage = 1;
+
+    const searchInput = document.getElementById('catalog-search-input');
+    const heroInput = document.getElementById('hero-search-input');
+    const sortSelect = document.getElementById('catalog-sort-select');
+    const clearBtn = document.getElementById('search-clear-btn');
+
+    if (searchInput) searchInput.value = '';
+    if (heroInput) heroInput.value = '';
+    if (sortSelect) sortSelect.value = 'default';
+    if (clearBtn) clearBtn.style.display = 'none';
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.category === 'all');
+    });
+
+    renderProducts(true);
+}
+
+// Quick View Modal Controller
+function openProductModal(id) {
+    const product = productData.find(p => p.id === id);
+    if (!product) return;
+
+    const modal = document.getElementById('product-modal');
+    if (!modal) return;
+
+    const isAr = currentLang === 'ar';
+    const origin = getProductOrigin(product.desc);
+    const originLabel = origin ? (isAr ? origin.ar : origin.en) : '';
+    const stock = getStockNumber(product.desc);
+
+    // Image
+    const imgBox = document.getElementById('modal-img-box');
+    if (imgBox) {
+        imgBox.innerHTML = product.img 
+            ? `<img src="${product.img}" alt="${product.name}">` 
+            : `<div class="placeholder-icon" style="font-size: 50px; color: var(--gray);"><i class="fas fa-boxes-stacked"></i></div>`;
+    }
+
+    // Badges
+    const badgesBox = document.getElementById('modal-badges-container');
+    if (badgesBox) {
+        badgesBox.innerHTML = `
+            <span class="category-pill-card" style="position: static;">${product.category}</span>
+            ${origin ? `<span class="origin-badge" style="position: static;">${origin.flag} ${originLabel}</span>` : ''}
+            ${stock ? `<span class="stock-pill in-stock" style="padding: 4px 10px;">${isAr ? 'المخزون' : 'Stock'}: ${stock}</span>` : ''}
+        `;
+    }
+
+    // Texts
+    const titleEl = document.getElementById('modal-title');
+    const catEl = document.getElementById('modal-category');
+    const priceEl = document.getElementById('modal-price');
+    const descEl = document.getElementById('modal-desc');
+
+    if (titleEl) titleEl.textContent = product.name;
+    if (catEl) catEl.textContent = product.category;
+    if (priceEl) priceEl.textContent = product.price;
+
+    // Split and format description specs
+    if (descEl) {
+        descEl.innerHTML = '';
+        const parts = product.desc.split(/\s*\|\s*/).filter(Boolean);
+        if (parts.length > 0) {
+            parts.forEach(part => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'modal-desc-item';
+                // highlight labels if present
+                if (part.includes(':')) {
+                    const [k, v] = part.split(':', 2);
+                    itemDiv.innerHTML = `<strong>${k}:</strong> ${v}`;
+                } else {
+                    itemDiv.textContent = part;
+                }
+                descEl.appendChild(itemDiv);
+            });
+        } else {
+            descEl.textContent = product.desc;
+        }
+    }
+
+    // WhatsApp Action Button
+    const waBtn = document.getElementById('modal-wa-btn');
+    if (waBtn) {
+        const msg = encodeURIComponent(`Hello City Dental, I would like to order:
+Product: ${product.name}
+Price: ${product.price}
+Category: ${product.category}`);
+        waBtn.href = `https://wa.me/201149202220?text=${msg}`;
+    }
+
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeProductModal() {
+    const modal = document.getElementById('product-modal');
+    if (!modal) return;
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+}
+
+// Window Language Change Listener
+window.onLanguageChange = function(newLang) {
+    currentLang = newLang;
+    updateCategoryButtonCounts();
+    renderProducts(false);
+};
+
+// Initialization and Event Listeners
 document.addEventListener('DOMContentLoaded', () => {
+    updateCategoryButtonCounts();
     renderProducts();
 
-    // Category Filter Buttons (on page)
+    // Category Filter Buttons
     const filterBtns = document.querySelectorAll('.filter-btn');
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            renderProducts(btn.dataset.category);
+            currentCategory = btn.dataset.category;
+            renderProducts(true);
         });
     });
 
-    // Sub-menu/Hamburger Category Links
+    // Sub-menu / Hamburger Category Links
     const categoryLinks = document.querySelectorAll('.cat-link');
     categoryLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const cat = link.dataset.category;
-            
-            // Sync filter bar buttons if matching button exists
+            currentCategory = cat;
+
+            // Sync filter bar buttons
             filterBtns.forEach(b => {
-                if (b.dataset.category === cat) {
-                    filterBtns.forEach(btn => btn.classList.remove('active'));
-                    b.classList.add('active');
-                }
+                b.classList.toggle('active', b.dataset.category === cat);
             });
-            
-            renderProducts(cat);
-            // Scroll to products
+
+            renderProducts(true);
+
+            // Scroll to products smoothly
             const prodSection = document.getElementById('products');
             if (prodSection) {
                 prodSection.scrollIntoView({ behavior: 'smooth' });
             }
-            // Close mobile menu if open
+
+            // Close mobile menu if active
             const navLinks = document.querySelector('.nav-links');
             const mobileCats = document.querySelector('.mobile-nav-categories');
-            if (navLinks && navLinks.classList.contains('active')) {
-                navLinks.classList.remove('active');
-            }
-            if (mobileCats && mobileCats.classList.contains('active')) {
-                mobileCats.classList.remove('active');
-            }
+            if (navLinks && navLinks.classList.contains('active')) navLinks.classList.remove('active');
+            if (mobileCats && mobileCats.classList.contains('active')) mobileCats.classList.remove('active');
         });
     });
+
+    // Reset Category Button on Active Pill
+    const clearCatBtn = document.getElementById('clear-category-btn');
+    if (clearCatBtn) {
+        clearCatBtn.addEventListener('click', () => {
+            currentCategory = 'all';
+            filterBtns.forEach(b => b.classList.toggle('active', b.dataset.category === 'all'));
+            renderProducts(true);
+        });
+    }
+
+    // Search Input with Debounce & Clear Button
+    const searchInput = document.getElementById('catalog-search-input');
+    const searchClearBtn = document.getElementById('search-clear-btn');
+    let searchDebounceTimer = null;
+
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            clearTimeout(searchDebounceTimer);
+            const val = e.target.value;
+            if (searchClearBtn) {
+                searchClearBtn.style.display = val.length > 0 ? 'flex' : 'none';
+            }
+            searchDebounceTimer = setTimeout(() => {
+                currentSearch = val;
+                renderProducts(true);
+            }, 200);
+        });
+    }
+
+    if (searchClearBtn && searchInput) {
+        searchClearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            searchClearBtn.style.display = 'none';
+            currentSearch = '';
+            renderProducts(true);
+            searchInput.focus();
+        });
+    }
+
+    // Sort Dropdown
+    const sortSelect = document.getElementById('catalog-sort-select');
+    if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+            currentSort = e.target.value;
+            renderProducts(false);
+        });
+    }
+
+    // Hero Search Input & Button
+    const heroSearchInput = document.getElementById('hero-search-input');
+    const heroSearchBtn = document.getElementById('hero-search-btn');
+
+    function performHeroSearch() {
+        if (!heroSearchInput) return;
+        const query = heroSearchInput.value.trim();
+        if (query) {
+            currentSearch = query;
+            if (searchInput) {
+                searchInput.value = query;
+                if (searchClearBtn) searchClearBtn.style.display = 'flex';
+            }
+            renderProducts(true);
+            const prodSection = document.getElementById('products');
+            if (prodSection) prodSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    if (heroSearchBtn) {
+        heroSearchBtn.addEventListener('click', performHeroSearch);
+    }
+    if (heroSearchInput) {
+        heroSearchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                performHeroSearch();
+            }
+        });
+    }
+
+    // Load More Button
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', () => {
+            currentPage++;
+            renderProducts(false);
+        });
+    }
+
+    // Modal Close Events
+    const modal = document.getElementById('product-modal');
+    const modalCloseBtn = document.getElementById('modal-close');
+
+    if (modalCloseBtn) {
+        modalCloseBtn.addEventListener('click', closeProductModal);
+    }
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeProductModal();
+            }
+        });
+    }
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeProductModal();
+        }
+    });
+
+    // Back to Top Button
+    const backToTopBtn = document.getElementById('back-to-top');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 450) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        }, { passive: true });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
 
     // Mobile Menu Toggle
     const menuToggle = document.querySelector('.menu-toggle');
