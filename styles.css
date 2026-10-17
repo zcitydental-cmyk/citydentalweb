@@ -658,73 +658,121 @@ footer {
     display: flex;
     flex-direction: row !important;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
     margin-bottom: 25px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
-.socials a {
-    color: var(--primary);
-    background: var(--white);
-    font-size: 32px;
-    /* Further increased for better presence */
-    width: 56px;
-    /* Larger circular box */
-    height: 56px;
+.socials a,
+.socials .social-btn {
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transition);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 2px solid transparent;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    cursor: pointer;
+    flex-shrink: 0;
 }
 
-.socials a:hover {
-    transform: translateY(-5px) scale(1.1);
-    background: var(--white);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+.socials a i,
+.socials .social-btn i {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.socials a i.fa-facebook:hover,
-.socials a:has(.fa-facebook):hover {
-    color: #1877F2;
-    border-color: #1877F2;
+/* Authentic Brand Colors - Normal State */
+.socials a.fb-link,
+.socials a:has(.fa-facebook-f),
+.socials a:has(.fa-facebook) {
+    color: #1877F2 !important;
+    font-size: 32px;
 }
 
-.socials a i.fa-instagram:hover,
-.socials a:has(.fa-instagram):hover {
-    color: #E4405F;
-    border-color: #E4405F;
+.socials a.ig-link,
+.socials a:has(.fa-instagram) {
+    color: #E1306C !important;
+    font-size: 30px;
 }
 
-.socials a i.fa-tiktok:hover,
-.socials a:has(.fa-tiktok):hover {
-    color: #000000;
-    border-color: #000000;
-}
-
-.socials a i.fa-threads,
-.socials a:has(.fa-threads) {
-    color: #000000;
-    /* Solid black for high contrast */
-}
-
-.socials a i.fa-threads:hover,
-.socials a:has(.fa-threads):hover {
-    color: var(--secondary);
-    /* Brand color on hover */
-    border-color: var(--secondary);
-}
-
-.socials a i.fa-youtube:hover,
-.socials a:has(.fa-youtube):hover {
-    color: #FF0000;
-    border-color: #FF0000;
-}
-
-.threads-link {
+.socials a.tt-link,
+.socials a:has(.fa-tiktok) {
     color: #000000 !important;
+    font-size: 30px;
+}
+
+.socials a.th-link,
+.socials a:has(.fa-threads) {
+    color: #000000 !important;
+    font-size: 30px;
+}
+
+.socials a.yt-link,
+.socials a:has(.fa-youtube) {
+    color: #FF0000 !important;
+    font-size: 28px;
+}
+
+/* Hover & Active States: Lifts up and fills with full Brand Colors & Glow */
+.socials a:hover,
+.socials .social-btn:hover {
+    transform: translateY(-6px) scale(1.12);
+    text-decoration: none !important;
+}
+
+.socials a.fb-link:hover,
+.socials a:has(.fa-facebook-f):hover,
+.socials a:has(.fa-facebook):hover {
+    background: #1877F2 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(24, 119, 242, 0.6) !important;
+}
+
+.socials a.ig-link:hover,
+.socials a:has(.fa-instagram):hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(225, 48, 108, 0.6) !important;
+}
+
+.socials a.tt-link:hover,
+.socials a:has(.fa-tiktok):hover {
+    background: #000000 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.85) !important;
+}
+
+.socials a.th-link:hover,
+.socials a:has(.fa-threads):hover {
+    background: #111111 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3) !important;
+}
+
+.socials a.yt-link:hover,
+.socials a:has(.fa-youtube):hover {
+    background: #FF0000 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.6) !important;
+}
+
+.socials a:hover i {
+    color: #ffffff !important;
 }
 
 .footer-contact p {
